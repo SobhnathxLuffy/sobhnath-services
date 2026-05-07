@@ -3,81 +3,102 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sobhnath — Resume, Portfolio & Automation Help</title>
-  <meta name="description" content="Student-friendly resume upgrades, portfolio websites, and quick automation/tracker builds by Sobhnath." />
+  <title>ClipForge by Sobhnath — Short-Form Content Repurposing</title>
+  <meta name="description" content="Turn long videos, podcasts, and raw ideas into Shorts/Reels scripts, captions, hooks, titles, and posting plans in 24–48 hours." />
   <style>
-    :root { --bg:#0b0f19; --card:#121827; --text:#eef2ff; --muted:#aab3c5; --brand:#7c3aed; --brand2:#06b6d4; --line:#253049; }
-    *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(circle at top left,#1e1b4b,transparent 35%),var(--bg);color:var(--text);line-height:1.6}
-    .wrap{max-width:980px;margin:auto;padding:42px 18px} .hero{padding:48px 0 30px} .tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:6px 12px;color:var(--muted);font-size:14px;background:rgba(255,255,255,.03)}
-    h1{font-size:clamp(34px,7vw,68px);line-height:1.03;margin:18px 0 16px;letter-spacing:-.05em} h2{font-size:28px;margin:0 0 14px} p{color:var(--muted);font-size:18px}.hero p{max-width:720px}.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{display:inline-block;text-decoration:none;color:#06111a;background:linear-gradient(135deg,var(--brand2),#a7f3d0);font-weight:800;padding:13px 18px;border-radius:14px}.btn.alt{color:var(--text);background:#182238;border:1px solid var(--line)}
-    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:28px 0}.card{background:rgba(18,24,39,.88);border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 20px 50px rgba(0,0,0,.22)}.price{font-size:26px;font-weight:900;color:#fff}.small{font-size:14px}.list{padding-left:19px;color:var(--muted)}.strip{margin:28px 0;padding:20px;border:1px dashed #3b4a6b;border-radius:18px;color:var(--muted)}
-    footer{border-top:1px solid var(--line);margin-top:34px;padding-top:20px;color:var(--muted);font-size:14px}@media(max-width:760px){.grid{grid-template-columns:1fr}.wrap{padding:28px 16px}}
+    :root{--bg:#06070b;--card:#10131d;--soft:#161b29;--text:#f4f7fb;--muted:#a2adbf;--line:#273044;--a:#76f7bf;--b:#7c5cff;--c:#ffcb6b;--danger:#ff6b6b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(circle at 10% 0%,rgba(124,92,255,.28),transparent 32%),radial-gradient(circle at 90% 8%,rgba(118,247,191,.18),transparent 30%),var(--bg);color:var(--text);line-height:1.55}.wrap{max-width:1120px;margin:auto;padding:32px 18px}.nav{display:flex;justify-content:space-between;gap:16px;align-items:center;padding:14px 0}.logo{font-weight:900;letter-spacing:-.04em;font-size:20px}.logo span{color:var(--a)}.nav a{color:var(--muted);text-decoration:none;font-size:14px;margin-left:16px}.hero{padding:68px 0 46px;display:grid;grid-template-columns:1.08fr .92fr;gap:28px;align-items:center}.tag{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);border-radius:999px;padding:7px 12px;color:var(--muted);background:rgba(255,255,255,.035);font-size:14px}.dot{width:8px;height:8px;background:var(--a);border-radius:999px;box-shadow:0 0 18px var(--a)}h1{font-size:clamp(38px,7vw,76px);line-height:.98;margin:18px 0 18px;letter-spacing:-.07em}h1 em{font-style:normal;color:var(--a)}p{color:var(--muted);font-size:18px}.hero p{max-width:720px}.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-block;text-decoration:none;color:#06100c;background:linear-gradient(135deg,var(--a),#d7ffe9);font-weight:900;padding:14px 18px;border-radius:14px}.btn.alt{background:#141a29;color:var(--text);border:1px solid var(--line)}.panel{background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.03));border:1px solid var(--line);border-radius:28px;padding:22px;box-shadow:0 30px 90px rgba(0,0,0,.35)}.screen{background:#090b12;border:1px solid #263148;border-radius:22px;padding:18px}.mini{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}.hook{font-size:30px;font-weight:950;line-height:1.05;letter-spacing:-.04em;margin:10px 0}.timeline{display:grid;gap:10px;margin-top:18px}.beat{display:flex;gap:10px;align-items:flex-start;background:rgba(255,255,255,.04);border:1px solid var(--line);padding:10px;border-radius:14px}.num{color:var(--a);font-weight:900}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:24px 0}.card{background:rgba(16,19,29,.88);border:1px solid var(--line);border-radius:22px;padding:22px}.card h3,.card h2{margin:0 0 10px}.price{font-size:30px;font-weight:950;color:#fff}.list{padding-left:19px;color:var(--muted)}.section{padding:30px 0}.section h2{font-size:clamp(28px,4vw,46px);letter-spacing:-.05em;margin:0 0 12px}.proof{display:grid;grid-template-columns:1fr 1fr;gap:16px}.strip{padding:20px;border:1px dashed #40506f;border-radius:20px;color:var(--muted);background:rgba(255,255,255,.035)}.steps{counter-reset:step;display:grid;gap:12px}.step{position:relative;padding:18px 18px 18px 58px;background:var(--card);border:1px solid var(--line);border-radius:18px}.step:before{counter-increment:step;content:counter(step);position:absolute;left:18px;top:18px;width:26px;height:26px;border-radius:8px;background:var(--a);color:#06100c;display:grid;place-items:center;font-weight:900}.contact{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px}.pill{border:1px solid var(--line);background:rgba(255,255,255,.04);padding:10px 12px;border-radius:999px;color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:36px;padding-top:20px;color:var(--muted);font-size:14px}@media(max-width:850px){.hero,.proof{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.nav .links{display:none}}
   </style>
 </head>
 <body>
   <main class="wrap">
+    <nav class="nav">
+      <div class="logo">ClipForge <span>by Sobhnath</span></div>
+      <div class="links"><a href="#offers">Offers</a><a href="#process">Process</a><a href="#contact">Contact</a></div>
+    </nav>
+
     <section class="hero">
-      <span class="tag">Student-friendly digital help • 24–72h delivery</span>
-      <h1>Resume, portfolio website, or tracker — done fast.</h1>
-      <p>I help students, freshers, freelancers, and small businesses get clean digital assets without agency pricing: ATS resumes, one-page websites, and useful trackers/automation.</p>
-      <div class="cta">
-        <a class="btn" href="https://t.me/Sobhnath_1234">Message on Telegram</a>
-        <a class="btn alt" href="mailto:sobhnathtec@gmail.com?subject=Digital%20service%20request">Email me</a>
-        <a class="btn alt" href="#services">See services</a>
+      <div>
+        <span class="tag"><span class="dot"></span> Short-form repurposing for creators & small brands</span>
+        <h1>Turn one long video into <em>scroll-stopping Shorts.</em></h1>
+        <p>Send a podcast, webinar, lecture, raw clip, or even just an idea. Get hooks, scripts, captions, titles, and posting-ready short-form assets built for Reels, YouTube Shorts, TikTok, and LinkedIn.</p>
+        <div class="cta">
+          <a class="btn" href="https://t.me/Sobhnath_1234">DM “CLIPS” on Telegram</a>
+          <a class="btn alt" href="mailto:sobhnathtec@gmail.com?subject=ClipForge%20shorts%20request">Email a video link</a>
+        </div>
+        <p class="mini">Payment details are shared privately after scope is confirmed. No public QR circus.</p>
+      </div>
+      <div class="panel">
+        <div class="screen">
+          <div class="mini">Example transformation</div>
+          <div class="hook">“Most students study for 6 hours and remember nothing.”</div>
+          <div class="timeline">
+            <div class="beat"><span class="num">0–3s</span><span>Pattern interrupt + painful truth</span></div>
+            <div class="beat"><span class="num">3–12s</span><span>Explain the mistake in simple words</span></div>
+            <div class="beat"><span class="num">12–28s</span><span>Give 3-step fix with captions</span></div>
+            <div class="beat"><span class="num">28–35s</span><span>Loop CTA: “Try this tonight.”</span></div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="services" class="grid">
-      <article class="card">
-        <h2>Resume Upgrade</h2>
-        <div class="price">₹999</div>
-        <p class="small">Launch price • 24–48h</p>
-        <ul class="list">
-          <li>ATS-friendly resume rewrite</li>
-          <li>Clean one-page format</li>
-          <li>LinkedIn headline + About</li>
-          <li>Cover letter or job message</li>
-        </ul>
-      </article>
-      <article class="card">
-        <h2>Portfolio / Website</h2>
-        <div class="price">₹2,499+</div>
-        <p class="small">Launch price • 2–3 days</p>
-        <ul class="list">
-          <li>Mobile-friendly one-page site</li>
-          <li>About/services/projects/contact</li>
-          <li>Free hosting setup</li>
-          <li>WhatsApp/social CTA</li>
-        </ul>
-      </article>
-      <article class="card">
-        <h2>Tracker / Automation</h2>
-        <div class="price">₹1,499+</div>
-        <p class="small">Launch price • 24–72h</p>
-        <ul class="list">
-          <li>Expense/study/client trackers</li>
-          <li>Google Sheet cleanup</li>
-          <li>Invoice/order templates</li>
-          <li>Simple scripts and workflows</li>
-        </ul>
-      </article>
+    <section class="section proof">
+      <div class="card">
+        <h2>Your long content is underused.</h2>
+        <p>Most creators already have useful ideas buried inside 10–60 minute videos. The problem is packaging: hooks, cuts, captions, titles, and platform formatting.</p>
+      </div>
+      <div class="card">
+        <h2>I package it for short-form.</h2>
+        <p>AI-assisted research, human-style editing logic, and fast delivery. The goal is not “AI content.” The goal is publishable assets that don’t feel lazy.</p>
+      </div>
     </section>
 
-    <div class="strip">
-      <strong>How it works:</strong> Send your requirement → get a quick scope + price → approve sample/direction → delivery/payment flow is confirmed in chat → one revision.
-    </div>
-
-
-    <section class="card">
-      <h2>Quick request format</h2>
-      <p>Copy this and send it:</p>
-      <p><strong>I need:</strong> Resume / Portfolio / Website / Tracker<br><strong>Deadline:</strong><br><strong>Details/files:</strong><br><strong>Budget:</strong></p>
-      <p>Contact: <strong>Telegram @Sobhnath_1234</strong> or <strong>sobhnathtec@gmail.com</strong></p>
+    <section id="offers" class="section">
+      <h2>Launch offers</h2>
+      <p>Built for fast testing. Start small, then scale only if the direction works.</p>
+      <div class="grid">
+        <article class="card">
+          <h3>Trial Pack</h3>
+          <div class="price">₹499</div>
+          <p>3 Shorts concepts/scripts from one video or idea.</p>
+          <ul class="list"><li>Hooks</li><li>Script beats</li><li>Caption/title ideas</li><li>24–48h delivery</li></ul>
+        </article>
+        <article class="card">
+          <h3>Starter Pack</h3>
+          <div class="price">₹1,499</div>
+          <p>10 Shorts scripts/captions/titles for creators who need consistency.</p>
+          <ul class="list"><li>10 hooks</li><li>10 scripts</li><li>Titles + hashtags</li><li>Posting order</li></ul>
+        </article>
+        <article class="card">
+          <h3>Edited Pack</h3>
+          <div class="price">₹2,499+</div>
+          <p>Edited vertical clips from supplied footage. Price depends on raw material.</p>
+          <ul class="list"><li>Vertical format</li><li>Captions</li><li>Basic cuts/zoom</li><li>Export-ready MP4</li></ul>
+        </article>
+      </div>
+      <div class="strip"><strong>Free audit:</strong> Send one public video link and I’ll reply with 3 short-form hook ideas. If they’re boring, roast me and leave. Fair enough.</div>
     </section>
 
-    <footer>
-      Built by Sobhnath. Contact: Telegram @Sobhnath_1234 / sobhnathtec@gmail.com. Payment details are shared after scope is confirmed. No fake promises — clean work, fast delivery.
-    </footer>
+    <section id="process" class="section">
+      <h2>How it works</h2>
+      <div class="steps">
+        <div class="step"><strong>Send source material.</strong><br><span class="muted">Video link, raw clip, podcast, lecture, or topic.</span></div>
+        <div class="step"><strong>I map the angles.</strong><br><span class="muted">Hooks, audience pain, payoff, script structure, and platform fit.</span></div>
+        <div class="step"><strong>You approve direction.</strong><br><span class="muted">We confirm scope, timeline, and payment privately.</span></div>
+        <div class="step"><strong>You get ready-to-post assets.</strong><br><span class="muted">Scripts/captions/titles or edited MP4s depending on pack.</span></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section card">
+      <h2>Send one video. I’ll find the Shorts inside it.</h2>
+      <p>Best fit: tutors, coaches, podcasters, study/career creators, fitness trainers, small businesses, and creators with long videos but inconsistent Shorts.</p>
+      <div class="contact">
+        <span class="pill">Telegram: @Sobhnath_1234</span>
+        <span class="pill">Email: sobhnathtec@gmail.com</span>
+        <span class="pill">Reply keyword: CLIPS</span>
+      </div>
+    </section>
+
+    <footer>ClipForge by Sobhnath — short-form repurposing. Payment shared privately after scope confirmation.</footer>
   </main>
 </body>
 </html>
